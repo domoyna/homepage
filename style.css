@@ -2,6 +2,9 @@
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --heading-font-family: "Poppins",
+        sans-serif;
+    --paragraph-font-family: font-family: "Playfair Display", serif;
 }
 
 body {
@@ -36,6 +39,7 @@ p {
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+    font-family: var(--paragraph-font-family);
 }
 
 .navigation-links {
@@ -101,6 +105,12 @@ p {
 }
 
 @media (max-width: 900px) {
+    .hero h2 {
+        font-family: var(--heading-font-family) ;
+        font-weight: normal;
+        line-height: 2;
+        font-seize: 24px;
+      }
      h1 {
         font-size: 60px;
 
