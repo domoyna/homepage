@@ -116,8 +116,18 @@ p {
 
      }
      .project-description {
-        padding: 0;
+        padding: 120px 60px;
+     }
+     .hero p {
+        font-size: 36 px;
+        font-weight:  bold;
+        marfgin: 0;
+        color: #272142;
+     }
+     .hero {
+        background: rgb(174, 174, 240);
         text-align: center;
+        padding: 160px 20px;
      }
          img {
              display: none;
