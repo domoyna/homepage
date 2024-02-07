@@ -99,3 +99,21 @@ p {
     box-shadow: var(--box-shadow);
     color: white;
 }
+
+@media (max-width: 900px) {
+     h1 {
+        font-size: 60px;
+
+     }
+     .project-description {
+        padding: 0;
+        text-align: center;
+     }
+         img {
+             display: none;
+         }
+    
+         body {
+             background-color: bisque;
+         }
+}
