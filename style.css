@@ -12,9 +12,10 @@ body {
     max-width: 800px;
 }
 
+
 .btn-branding-outline {
-    color: #6c63ff;
-    border: 1px solid #6c63ff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 4px;
     font-size: 18px;
     line-height: 27px;
@@ -29,7 +30,6 @@ body {
     line-height: 27px;
     padding: 15px 30px;
 }
-
 
 h1,
 h2,
@@ -126,34 +126,39 @@ p {
 
 @media (max-width: 900px) {
     .hero h2 {
-        font-family: var(--heading-font-family) ;
+        font-family: var(--heading-font-family);
         font-weight: normal;
         line-height: 2;
         font-seize: 24px;
-      }
-     h1 {
+    }
+
+    h1 {
         font-size: 60px;
 
-     }
-     .project-description {
+    }
+
+    .project-description {
         padding: 120px 60px;
-     }
-     .hero p {
+    }
+
+    .hero p {
         font-size: 36 px;
-        font-weight:  bold;
-        marfgin: 0;
+        font-weight: bold;
+        margin: 0;
         color: #272142;
-     }
-     .hero {
+    }
+
+    .hero {
         background: rgb(174, 174, 240);
         text-align: center;
         padding: 160px 20px;
-     }
-         img {
-             display: none;
-         }
-    
-         body {
-             background-color: bisque;
-         }
+    }
+
+    img {
+        display: none;
+    }
+
+    body {
+        background-color: bisque;
+    }
 }
